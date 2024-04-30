@@ -22,7 +22,7 @@ function getData(req, res) {
     let outputObject = {
         10: "even",
         5: "odd",
-        "time": req.timeStamp
+        "time": req.timestamp
     }
     res.status(200).json(outputObject);
 }
